@@ -170,7 +170,7 @@ testing[,563] <- read.table(archiveList[14], colClasses = c("character"),
 # C O M B I N E  -  R E D U C E  -  E X T R A C T   D A T A
 # ------------------------------------------------------------------------------
 # 1) Merges the training and the test sets to create one data set.
-#       FULL_JOIN(TABLE,TABLE) %>%
+#       UNION(TABLE,TABLE) %>%
 #
 # 2) Extracts only the measurements on the mean and standard deviation for each 
 #    measurement.
